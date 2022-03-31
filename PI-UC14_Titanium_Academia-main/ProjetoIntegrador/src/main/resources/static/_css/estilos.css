@@ -1,0 +1,891 @@
+/*---------------------------------------------------------Principal---------------------------------------------------------*/
+html {
+    background-color: black;
+    height: auto;
+}
+
+main {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: black;
+}
+
+.linhacabecalho {
+    border-bottom-style: solid;
+    border-color: #fff;
+}
+
+/*------------------------------------------------------Fim Principal--------------------------------------------------------*/
+
+/*-------------------------------------------------Ícones Redes Sociais------------------------------------------------------*/
+
+#iconeface {
+    font-size: 2.8vw;
+    color: white;
+    margin-left: 2%;
+}
+
+#iconeinsta {
+    font-size: 2.8vw;
+    color: white;
+    margin-left: 2%;
+}
+
+#iconeface:hover {
+    color: #0077e2
+}
+
+#iconeinsta:hover {
+    color: #800080
+}
+
+.linhacabecalho {
+    padding: 0%;
+}
+
+/*-------------------------------------------------Fim Ícones Redes Sociais--------------------------------------------------*/
+
+/*------------------------------------------------------Botão de Login-------------------------------------------------------*/
+
+.login {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.login:hover {
+    color: #FF8000;
+    background-color: transparent;
+}
+
+/*----------------------------------------------------Fim Botão de Login-----------------------------------------------------*/
+
+/*------------------------------------------------------Nome da Empresa------------------------------------------------------*/
+.nome1 {
+    color: #FF8000;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+}
+
+.nome2 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+/*--------------------------------------------------Fim Nome da Empresa------------------------------------------------------*/
+
+/*--------------------------------------------------------Navegação----------------------------------------------------------*/
+#menu {
+    padding: 0%;
+}
+
+#menu a {
+    color: #fff;
+}
+
+#menu a:hover {
+    color: #FF8000;
+}
+
+#menu button {
+    background-color: #fff;
+}
+
+#menu button:active {
+    background-color: #FF8000;
+}
+
+/*------------------------------------------------------Fim Navegação--------------------------------------------------------*/
+
+/*-------------------------------------------------------Fundos Site---------------------------------------------------------*/
+#fundo1 {
+    margin-top: 2%;
+    padding: 2%;
+    background-image: linear-gradient(to bottom, #FF8000, black);
+}
+
+#fundo2 {
+    background-image: linear-gradient(to bottom, black, white);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+/*------------------------------------------------------Fim Fundos Site------------------------------------------------------*/
+
+/*------------------------------------------------------------Logo-----------------------------------------------------------*/
+.divLogo {
+    text-align: center;
+}
+
+.divLogo img {
+    width: 30vw;
+}
+
+/*----------------------------------------------------------Fim Logo---------------------------------------------------------*/
+
+/*----------------------------------------------------Formulário de Login----------------------------------------------------*/
+#login h1 {
+    color: #FF8000;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+#login input {
+    font-size: 1vw;
+}
+
+#login label {
+    color: #FF8000;
+    font-size: 1.5vw;
+    margin-top: 5%;
+}
+
+#login p {
+    color: #fff;
+    font-size: 1vw;
+    margin-top: 2%;
+}
+
+#login p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1vw;
+}
+
+#login p a:hover {
+    color: #FF8000;
+}
+
+#botaologin {
+    background-color: #fff;
+}
+
+#botaologin:hover {
+    background-color: #FF8000;
+}
+
+/*----------------------------------------------------Formulário de Login----------------------------------------------------*/
+
+/*---------------------------------------------------Formulário de Cadastro--------------------------------------------------*/
+#cadastro h1 {
+    color: #FF8000;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5vw;
+}
+
+#cadastro input {
+    font-size: 1vw;
+}
+
+#cadastro label {
+    color: #FF8000;
+    font-size: 1.5vw;
+    margin-top: 2.5%;
+}
+
+#botaocadastro {
+    background-color: #fff;
+    margin-top: 3.5%;
+}
+
+#botaocadastro:hover {
+    background-color: #FF8000;
+}
+
+/*---------------------------------------------------Formulário de Cadastro--------------------------------------------------*/
+
+/*----------------------------------------------------Lista de Usuários------------------------------------------------------*/
+.listagemUsuarios {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.listagemUsuarios h1 {
+    color: #FF8000;
+}
+
+.listagemUsuarios table {
+    width: 100%;
+}
+
+.listagemUsuarios table thead tr th {
+    color: #fff;
+}
+
+.listagemUsuarios table tbody tr td {
+    color: #fff;
+}
+
+/*---------------------------------------------------Fim Lista de Usuários---------------------------------------------------*/
+
+/*--------------------------------------------------Atualização de Cadastro--------------------------------------------------*/
+.updateUsuario div h1 {
+    text-align: center;
+    color: #FF8000;
+}
+
+.updateUsuario .form-group label {
+    color: #fff;
+}
+
+.updateUsuario .form-group small {
+    color: #fff;
+}
+
+/*------------------------------------------------Fim Atualização de Cadastro------------------------------------------------*/
+
+/*--------------------------------------------------------Página Index-------------------------------------------------------*/
+.fundoIndex {
+    height: 100vh;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+#fundo2 .titulo {
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+#fundo2 .titulo h1 {
+    font-size: 3vw;
+}
+
+#carroselindex button {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255, 0.5);
+    width: 2vw;
+    border-radius: 4px;
+    transition: background-color 1s;
+}
+
+#carroselindex button:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+#carroselindex button:focus {
+    outline: none;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.carrosselIndex div a img {
+    border-radius: 5px;
+}
+
+.carrosselIndex div a img:hover {
+    opacity: 0.8;
+}
+
+/*-------------------------------------------------------Fim Página Index----------------------------------------------------*/
+
+/*------------------------------------------------------Página "Sobre Nós"---------------------------------------------------*/
+#descricaosobrenos h1 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #000000;
+}
+
+#descricaosobrenos p {
+    font-size: 2vw;
+    color: #fff;
+}
+
+#imagensAcademia {
+    margin-top: 4%;
+}
+
+#img1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img1:hover {
+    opacity: 0.7;
+}
+
+#imagensAcademia div img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#imagensAcademia div img:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (image) */
+
+#modalImg {
+    margin: auto auto 5% auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 4px;
+}
+
+/* Add Animation */
+
+#modalImg {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.modal {
+    border-style: solid;
+}
+
+.modal .previous, .modal .next {
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 128, 0, 0.5);
+    height: 100%;
+    width: 3vw;
+    border: none;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.modal .previous:hover, .modal .next:hover {
+    color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(255, 128, 0, 0.8);
+}
+
+.modal .previous {
+    float: left;
+}
+
+.modal .next {
+    float: right;
+}
+
+.modal .previous i, .modal .next i {
+    font-size: 2vw;
+}
+
+/*Fim Modal*/
+/*--------------------------------------------------Fim Página "Sobre Nós"---------------------------------------------------*/
+
+/*------------------------------------------------------Página "Contato"-----------------------------------------------------*/
+#contato h2 {
+    color: #000000;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+#contato h3 {
+    color: #fff;
+    font-size: 1.8vw;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+#iface {
+    font-size: 3vw;
+    margin-right: 2%;
+    color: #0077e2;
+}
+
+#iinsta {
+    font-size: 3vw;
+    margin-right: 2%;
+    color: #800080;
+}
+
+#link_facebook, #link_instagram, #link_contato:hover {
+    cursor: pointer;
+}
+
+/*Mapa*/
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*------------------------------------------------------Página "Contato"-----------------------------------------------------*/
+
+/*----------------------------------------------------------Rodapé-----------------------------------------------------------*/
+.footer {
+    height: auto;
+    width: auto;
+    padding-top: 0.8%;
+    padding-left: 2%;
+}
+
+.footer div {
+    padding: 0%;
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul h3 {
+    color: #FF8000;
+    font-size: 2vw;
+    margin-bottom: 0%;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul h5 {
+    font-size: 1.2vw;
+    color: #fff;
+    margin-bottom: 5%;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul h6 {
+    color: #fff;
+    font-size: 1vw;
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul p {
+    font-size: 0.8vw;
+    color: #fff;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul li {
+    font-size: 0.9vw;
+    color: #fff;
+    height: auto;
+    width: auto;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer div ul li a:hover {
+    color: #FF8000;
+}
+
+/*--------------------------------------------------------Fim Rodapé---------------------------------------------------------*/
+
+/*-------------------------------------------------Responsividade Das Páginas------------------------------------------------*/
+@media (max-width: 992px) {}
+
+@media (max-width: 758px) {
+
+    /*Botão de Login*/
+    .login {
+        font-size: 2.5vw;
+    }
+
+    /*Ícones Redes Sociais*/
+    #iconeface,
+    #iconeinsta {
+        font-size: 4vw;
+        margin-left: 4%;
+    }
+
+    /*Nome da Empresa*/
+    .nome1 {
+        font-size: 4vw;
+    }
+
+    .nome2 {
+        font-size: 2.5vw;
+    }
+
+    /*Navegação*/
+    #menu button {
+        box-shadow: none;
+    }
+
+    #navbarTitanium .navbar-nav a {
+        font-size: 3vw;
+    }
+
+    /*Logo*/
+    #logo {
+        width: 25vw;
+    }
+
+    /*Página Login*/
+    #login div h1 {
+        font-size: 5vw;
+    }
+
+    #login div form label {
+        font-size: 3.5vw;
+    }
+
+    #login div form input {
+        border-radius: 1vw;
+        padding: 1vw;
+        font-size: 3vw;
+    }
+
+    #login div form p,
+    #login div form p a {
+        font-size: 2.5vw;
+    }
+
+    #login div form .btn {
+        width: 15vw;
+    }
+
+    /*Página de Cadastro*/
+    #cadastro div h1 {
+        font-size: 5vw;
+    }
+
+    #cadastro div form label {
+        font-size: 3.5vw;
+    }
+
+    #cadastro div form input {
+        border-radius: 1vw;
+        padding: 1vw;
+        font-size: 3vw;
+    }
+
+    /*Página Lista de Usuários*/
+    .listagemUsuarios h1 {
+        font-size: 4vw;
+    }
+
+    .listagemUsuarios .col-8 {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .listagemUsuarios div table thead tr th {
+        font-size: 2.5vw;
+    }
+
+    .listagemUsuarios div table tbody tr td span {
+        font-size: 2.5vw;
+    }
+
+    .listagemUsuarios div table tbody tr td a button {
+        font-size: 2.5vw;
+        padding: 1px;
+        border-radius: 2px;
+    }
+
+    /*Página de Atualização de Cadastro*/
+    .updateUsuario .col h1 {
+        font-size: 4vw;
+    }
+
+    .updateUsuario .col .form-group label {
+        font-size: 3.5vw;
+    }
+
+    .updateUsuario .col .form-group input {
+        font-size: 3.5vw;
+        padding: 2px;
+    }
+
+    .updateUsuario .col .form-group small {
+        font-size: 3.5vw;
+    }
+
+    .updateUsuario .col div button {
+        font-size: 3.5vw;
+        padding: 2px;
+    }
+
+    /*Página Index*/
+    .fundoIndex {
+        height: 30vh;
+    }
+
+    /*Carrossel Index*/
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5vw;
+    }
+
+    /*Fundo 2*/
+    #fundo2 {
+        padding: 3vw 0vw;
+    }
+
+    /*Carrossel Produtos Index*/
+    #carroselindex .carousel-inner .carousel-item .row {
+        margin: 0vw 3.5vw;
+    }
+
+    #carroselindex .carousel-inner .carousel-item .row .col {
+        padding: 1vw 0.5vw;
+    }
+
+    #carroselindex .carousel-inner .carousel-item .row .col a img {
+        border-radius: 1vw;
+    }
+
+    #carroselindex .carousel-control-prev,
+    #carroselindex .carousel-control-next {
+        width: 3vw;
+    }
+
+    /*Página Produtos*/
+    .containerprodutos .row h3 {
+        font-size: 4vw;
+    }
+
+    .containerprodutos .linhaprodutos1 {
+        text-align: center;
+    }
+
+    .linhaprodutos {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        width: 100%;
+        padding: 0;
+        margin: 1.5vw;
+    }
+
+    .linhaprodutos .content {
+        margin: 0vw;
+        width: 25vw;
+    }
+
+    .linhaprodutos .content a {
+        padding: 0;
+        margin: 0;
+    }
+
+    .containerprodutos div div a figure {
+        border-radius: 1vw;
+    }
+
+    .containerprodutos div div a figure figcaption p {
+        font-size: 3vw;
+    }
+
+    .botao {
+        text-align: center;
+        border-bottom: solid #fff 0.5px;
+    }
+
+    .botao .btn p {
+        font-size: 3vw;
+    }
+
+    /*Categoria Selecionada*/
+    .containerprodutos .row h3 {
+        font-size: 4vw;
+    }
+
+    .containerprodutos .grid-container div a {
+        width: 45vw;
+    }
+
+    /*Informações do Produto*/
+    .imagem_expandida #myImg {
+        width: 50vw;
+    }
+
+    .imagens_do_produto {
+        margin-left: 3vw;
+    }
+
+    .imagens_do_produto .img-thumbnail {
+        width: 18vw;
+    }
+
+    .informacoes_compra_produto div h3 {
+        font-size: 4vw;
+        margin-left: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .informacoes_compra_produto div p {
+        font-size: 3vw;
+        margin-left: 4vw;
+    }
+
+    /*Sobre Nós*/
+
+    #descricaosobrenos {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 1vw;
+    }
+
+    #descricaosobrenos .col h1 {
+        font-size: 5vw;
+    }
+
+    #descricaosobrenos .col p {
+        font-size: 3vw;
+    }
+
+    .modal .previous,
+    .modal .next {
+        height: 40vw;
+        width: 5vw;
+        border-radius: 1vw;
+    }
+
+    #imagensAcademia {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    #imagensAcademia div {
+        width: 40vw;
+        margin: 2vw 0vw;
+        margin-left: 5vw;
+    }
+
+    #imagensAcademia div #img2 {
+        border-radius: 1vw;
+    }
+
+    /*Contato*/
+    #contato {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 10vw;
+    }
+
+    #contato .col {
+        margin: 0;
+        padding: 0;
+    }
+
+    #contato .col .row h2 {
+        font-size: 5vw;
+    }
+
+    #contato .col .row h3 {
+        font-size: 5vw;
+    }
+
+    #contato .col h2 {
+        font-size: 5vw;
+    }
+
+    #contato .col h3 {
+        font-size: 4vw;
+    }
+
+    #map-container-google-1 iframe {
+        height: 50vw;
+        margin-bottom: 0;
+    }
+
+    /*Rodapé*/
+    .footer .col ul h3 {
+        font-size: 4vw;
+    }
+
+    .footer .col ul h6,
+    .footer .col ul h5 {
+        font-size: 2vw;
+    }
+
+    .footer .col ul li {
+        font-size: 1.5vw;
+    }
+
+    .footer .col ul p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 480px) {}
+
+/*-----------------------------------------------Fim Responsividade Das Páginas----------------------------------------------*/

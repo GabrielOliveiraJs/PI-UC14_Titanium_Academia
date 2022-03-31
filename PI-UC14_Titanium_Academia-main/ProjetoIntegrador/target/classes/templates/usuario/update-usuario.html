@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br" xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/estilos.css">
+    <link rel="stylesheet" href="_css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <title>Atualização de Usuários - Titanium Let Presidente Prudente</title>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <!--Ícones Redes Sociais e Botão de Login-->
+        <div class="row linhacabecalho">
+
+            <!--Ícones Redes Sociais-->
+            <div class="col text-start p-0 mx-2 my-1" id="iconesredesocial">
+                <a href="#" id="iconeface"><i class="fa fa-facebook"></i></a>
+                <a href="#" id="iconeinsta"><i class="fa fa-instagram"></i></a>
+            </div>
+
+            <!--Botão de Login-->
+            <div class="col usuario py-0 mx-2 my-3">
+                <a href="#" class="login pull-right"> <i class="fa fa-user"></i> ENTRAR</a>
+            </div>
+        </div>
+
+        <!--Corpo Barra de Navegação-->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light p-md-0" id="menu">
+                <div class="container-fluid">
+
+                    <!--Nome da Empresa-->
+                    <a class="navbar-brand">
+                        <h1 class="nome1 text-center">Titanium</h1>
+                        <h5 class="nome2 text-center">Let Academia</h5>
+                    </a>
+
+                    <!--Botão Collapse-->
+                    <button id="botaocollapse" class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTitanium" aria-controls="navbarTitanium" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon p-0 mx-1"></span>
+                    </button>
+
+                    <!--Navegação-->
+                    <div class="collapse navbar-collapse justify-content-end align-self-start" id="navbarTitanium">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="/cadastrarUsuario">CADASTRO DE USUÁRIO</a>
+                            <a class="nav-link" href="/usuarios">LISTAR USUÁRIOS</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Atualização de Dados do Usuário-->
+        <!--<th:block th:include="mensagemValidacao"></th:block>-->
+
+        <form method="POST">
+            <div class="row updateUsuario">
+                <div class="col col-xl-4 col-lg-4 col-md-2 col-sm-2 col-2"></div>
+                <div class="col col-xl-4 col-lg-4 col-md-8 col-sm-8 col-8">
+                    <h1>Atualizar Usuário</h1>
+                    <br>
+
+                    <div class="form-group">
+                        <label for=""><b>Nome: </b></label> <input type="text" class="form-control" value="" name="nome"
+                            th:attr="value = ${usuario.nome}" required /> <small class="form-text text-muted"><i>*
+                                Utilize Nomes Válidos</i></small>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for=""><b>Telefone:</b></label> <input type="text" class="form-control" value=""
+                                    name="telefone" th:attr="value = ${usuario.telefone}" required /> <small
+                                    class="form-text text-muted">
+                                    <i>*Número de Telefone Válido</i></small>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for=""><b>E-mail:</b></label> <input type="text" class="form-control" value=""
+                                    name="email" th:attr="value = ${usuario.email}" required /> <small
+                                    class="form-text text-muted">
+                                    <i>*Ultilize E-mail Válido</i></small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for=""><b>Senha:</b></label> <input type="text" class="form-control" value=""
+                            name="senha" th:attr="value = ${usuario.senha}" required /> <small
+                            class="form-text text-muted">
+                            <i>*Redefinir Senha</i></small>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn" id="botaocadastro">Atualizar Cadastro</button>
+                    </div>
+                </div>
+                <div class="col col-xl-4 col-lg-4 col-md-2 col-sm-2 col-2"></div>
+            </div>
+        </form>
+    </main>
+    <!--Bootstrap JavaScript-->
+    <script src="_javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
